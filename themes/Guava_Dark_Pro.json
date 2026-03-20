@@ -19,7 +19,7 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "variable": "#EE3F4D",
+    "variable": "#F0e1cd",
     "variable.defaultLibrary": "#C678DD",
     "parameter": "#FFB86C",
     "property": "#7EE787",
