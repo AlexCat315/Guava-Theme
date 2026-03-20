@@ -1,0 +1,338 @@
+{
+  "name": "Guava Dark Pro v2",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#15181E",
+    "editor.foreground": "#E6EDF3",
+    "editorLineNumber.foreground": "#5C6370",
+    "editorLineNumber.activeForeground": "#E6EDF3",
+    "editor.selectionBackground": "#264F78",
+    "editor.inactiveSelectionBackground": "#264F7855",
+    "editor.lineHighlightBackground": "#1B1F27",
+    "editorCursor.foreground": "#E6EDF3",
+    "editorBracketHighlight.foreground1": "#E06C75",
+    "editorBracketHighlight.foreground2": "#E5C07B",
+    "editorBracketHighlight.foreground3": "#98C379",
+    "editorBracketHighlight.foreground4": "#56B6C2",
+    "editorBracketHighlight.foreground5": "#61AFEF",
+    "editorBracketHighlight.foreground6": "#C678DD"
+  },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "variable": "#EE3F4D",
+    "variable.defaultLibrary": "#C678DD",
+    "parameter": "#FFB86C",
+    "property": "#7EE787",
+    "enumMember": "#79C0FF",
+    "function": "#D2A8FF",
+    "method": "#D2A8FF",
+    "type": "#79C0FF",
+    "class": "#79C0FF",
+    "interface": "#79C0FF",
+    "enum": "#79C0FF",
+    "namespace": "#C678DD",
+    "macro": "#F2CC60",
+    "number": "#79C0FF",
+    "string": "#A5D6FF"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6E7681",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#A5D6FF"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#79C0FF"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#FF7B72"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.arithmetic",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#FF7B72"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#D2A8FF"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#79C0FF"
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": [
+        "variable.parameter",
+        "variable.parameter.function",
+        "variable.parameter.zig"
+      ],
+      "settings": {
+        "foreground": "#FFB86C"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#EE3F4D"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "constant",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#79C0FF"
+      }
+    },
+    {
+      "name": "Local Variables",
+      "scope": [
+        "variable.other.readwrite",
+        "variable.other.local"
+      ],
+      "settings": {
+        "foreground": "#8B949E"
+      }
+    },
+    {
+      "name": "Property / Field",
+      "scope": [
+        "variable.other.property",
+        "variable.other.member",
+        "variable.object.property"
+      ],
+      "settings": {
+        "foreground": "#7EE787"
+      }
+    },
+    {
+      "name": "Global Variable",
+      "scope": [
+        "variable.other.global"
+      ],
+      "settings": {
+        "foreground": "#FFA657"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": [
+        "entity.name.namespace"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "name": "Builtin",
+      "scope": [
+        "support.function.builtin"
+      ],
+      "settings": {
+        "foreground": "#F2CC60"
+      }
+    },
+    {
+      "name": "Zig Keyword",
+      "scope": [
+        "keyword.control.zig",
+        "storage.type.zig"
+      ],
+      "settings": {
+        "foreground": "#FF7B72"
+      }
+    },
+    {
+      "name": "Zig Builtin",
+      "scope": [
+        "support.function.builtin.zig",
+        "meta.function-call.zig"
+      ],
+      "settings": {
+        "foreground": "#F2CC60"
+      }
+    },
+    {
+      "name": "Zig Type",
+      "scope": [
+        "entity.name.type.zig"
+      ],
+      "settings": {
+        "foreground": "#79C0FF"
+      }
+    },
+    {
+      "name": "Zig Struct Field",
+      "scope": [
+        "variable.other.member.zig"
+      ],
+      "settings": {
+        "foreground": "#7EE787"
+      }
+    },
+    {
+      "name": "Zig Enum Member",
+      "scope": [
+        "variable.other.enummember.zig"
+      ],
+      "settings": {
+        "foreground": "#79C0FF"
+      }
+    },
+    {
+      "name": "Zig Function",
+      "scope": [
+        "entity.name.function.zig"
+      ],
+      "settings": {
+        "foreground": "#D2A8FF"
+      }
+    },
+    {
+      "name": "Zig Error Union",
+      "scope": [
+        "keyword.operator.error.zig"
+      ],
+      "settings": {
+        "foreground": "#FF7B72"
+      }
+    },
+    {
+      "name": "Zig Optional",
+      "scope": [
+        "keyword.operator.optional.zig"
+      ],
+      "settings": {
+        "foreground": "#FF7B72"
+      }
+    },
+    {
+      "name": "Rust Keyword",
+      "scope": [
+        "keyword.control.rust"
+      ],
+      "settings": {
+        "foreground": "#FF7B72"
+      }
+    },
+    {
+      "name": "Rust Trait",
+      "scope": [
+        "entity.name.type.trait.rust"
+      ],
+      "settings": {
+        "foreground": "#79C0FF"
+      }
+    },
+    {
+      "name": "Rust Lifetime",
+      "scope": [
+        "entity.name.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#F2CC60"
+      }
+    },
+    {
+      "name": "Rust Macro",
+      "scope": [
+        "support.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#F2CC60"
+      }
+    },
+    {
+      "name": "C/C++ Type",
+      "scope": [
+        "entity.name.type.c",
+        "entity.name.type.cpp"
+      ],
+      "settings": {
+        "foreground": "#79C0FF"
+      }
+    },
+    {
+      "name": "C/C++ Function",
+      "scope": [
+        "entity.name.function.cpp",
+        "entity.name.function.c"
+      ],
+      "settings": {
+        "foreground": "#D2A8FF"
+      }
+    },
+    {
+      "name": "C++ Template",
+      "scope": [
+        "entity.name.type.template.cpp"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "name": "C++ Namespace",
+      "scope": [
+        "entity.name.namespace.cpp"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    }
+  ]
+}

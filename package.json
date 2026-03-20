@@ -1,0 +1,49 @@
+{
+    "name": "guava-theme",
+    "publisher": "ConAntares",
+    "displayName": "Guava Theme",
+    "description": "Guava Theme themes for VS code. Its soft colors will be helpful for you to get inspired.",
+    "repository": "",
+    "version": "1.0.0",
+    "icon": "logo.png",
+    "categories": 
+    [
+        "Themes"
+    ], 
+    "engines": 
+    {
+        "vscode": "^1.30.0"
+    },
+    "license": "MIT",
+    "contributes": 
+    {
+        "themes": 
+        [
+            {
+                "label": "Guava Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Guava_Dark_Pro.json"
+            },
+            {
+                "label": "Guava Light Azure",
+                "uiTheme": "vs",
+                "path": "./themes/Guava_light_azure.json"
+            },
+            {
+                "label": "Guava Light Orange",
+                "uiTheme": "vs",
+                "path": "./themes/Guava_light_orange.json"
+            },
+            {
+                "label": "Guava Light Violet",
+                "uiTheme": "vs",
+                "path": "./themes/Guava_light_violet.json"
+            }
+        ]
+    },
+    "galleryBanner": 
+    {
+        "color": "#F0F2F4",
+        "theme": "light"
+    }
+}
